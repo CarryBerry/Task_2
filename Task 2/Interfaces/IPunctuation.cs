@@ -9,6 +9,6 @@ namespace Task_2.Interfaces
 {
     public interface IPunctuation : ISentenceItem
     {
-        Symbol Value { get; }
+        string PunctuationValue { get; }
     }
 }

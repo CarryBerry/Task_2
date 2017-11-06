@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Task_2.Interfaces
 {
-    public interface ISentence : ISentenceItem, IEnumerable<ISentenceItem>
+    public interface ISentence : ISentenceItem
     {
         int WordsCount { get; }
         bool InterrogativeSentence { get; }
