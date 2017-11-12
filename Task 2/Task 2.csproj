@@ -58,7 +58,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\SentenceItem.cs" />
     <Compile Include="Classes\Symbol.cs" />
+    <Compile Include="Classes\Word.cs" />
     <Compile Include="Interfaces\IText.cs" />
     <Compile Include="Interfaces\IWord.cs" />
     <Compile Include="Interfaces\ISentence.cs" />

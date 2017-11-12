@@ -9,7 +9,7 @@ namespace Task_2.Interfaces
 {
     public interface IWord
     {
-        bool BeginsWithConsonantLetter { get; }
+        //bool BeginsWithConsonantLetter();
 
         List<Symbol> Symbols { get; }
 
