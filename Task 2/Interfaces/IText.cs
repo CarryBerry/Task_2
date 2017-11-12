@@ -8,6 +8,6 @@ namespace Task_2.Interfaces
 {
     public interface IText
     {
-        int SentencesCount { get; }
+        List<ISentence> Sentences { get; }
     }
 }

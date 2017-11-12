@@ -6,9 +6,14 @@ using System.Threading.Tasks;
 
 namespace Task_2.Interfaces
 {
-    public interface ISentence : ISentenceItem
+    public interface ISentence
     {
+        List<IWord> Words { get; }
+
         int WordsCount { get; }
-        bool InterrogativeSentence { get; }
+
+        bool IsInterrogative { get; }
+
+        char Separator { get; }
     }
 }

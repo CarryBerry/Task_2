@@ -7,8 +7,12 @@ using Task_2.Classes;
 
 namespace Task_2.Interfaces
 {
-    public interface IWord : ISentenceItem
+    public interface IWord
     {
         bool BeginsWithConsonantLetter { get; }
+
+        List<Symbol> Symbols { get; }
+
+        int Count { get; }
     }
 }

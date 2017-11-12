@@ -7,14 +7,18 @@ using Task_2.Interfaces;
 
 namespace Task_2.Classes
 {
-    public class Symbol : ISymbol
+    public class Symbol
     {
-        private char _value;
-        public char Value { get { return _value; } }
 
-        public Symbol(char source)
+        private char _symbol;
+        public Symbol(char symbol)
         {
-            _value = source;
+            _symbol = symbol;
+        }
+
+        public char StringSymbol()
+        {
+            return _symbol;
         }
     }
 }
