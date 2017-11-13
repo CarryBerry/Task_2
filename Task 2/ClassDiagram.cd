@@ -1,2 +1,77 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram /> 
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Task_2.Classes.Parser" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AdditionalClasses\Parser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Task_2.Classes.Reader" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAABAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>AdditionalClasses\Reader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Task_2.Classes.Sentence" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAIAAAAAEAAAAAAAAgAAAAgAAAABBAAgCgAA=</HashCode>
+      <FileName>Models\Sentence.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Task_2.Classes.SentenceItem" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAQA=</HashCode>
+      <FileName>Models\SentenceItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Task_2.Classes.Text" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAEAAAACAAAmAAAQAAAAAAEACAAgAA=</HashCode>
+      <FileName>Models\Text.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Task_2.Classes.Word" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAgABAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Word.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="Task_2.Interfaces.ISentence" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAgAAAAgAAAAABAAgCgAA=</HashCode>
+      <FileName>Interfaces\ISentence.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Task_2.Interfaces.ISentenceItem" Collapsed="true">
+    <Position X="2.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAQA=</HashCode>
+      <FileName>Interfaces\ISentenceItem.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Task_2.Interfaces.IWord" Collapsed="true">
+    <Position X="4" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAgAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IWord.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Task_2.Classes.SentenceItemType" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>AdditionalClasses\SentenceItemType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

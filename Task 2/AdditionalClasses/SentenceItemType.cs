@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Task_2.Classes
 {
-    public class SentenceItem
+    public enum SentenceItemType
     {
-        public string Value { get; set; }
+        PunctuationSign, Word
     }
 }

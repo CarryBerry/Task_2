@@ -9,10 +9,10 @@ namespace Task_2.Interfaces
 {
     public interface IWord
     {
-        //bool BeginsWithConsonantLetter();
+        int GetWordLength(ISentenceItem element);
 
-        List<Symbol> Symbols { get; }
+        bool BeginsWithConsonantLetter(ISentenceItem element);
 
-        int Count { get; }
+        void ReplaceValue(int wordLenght, ISentenceItem element, string newValue);
     }
 }

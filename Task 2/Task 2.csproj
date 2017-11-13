@@ -58,11 +58,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes\Sentence.cs" />
-    <Compile Include="Classes\SentenceItem.cs" />
-    <Compile Include="Classes\Symbol.cs" />
-    <Compile Include="Classes\Word.cs" />
-    <Compile Include="Interfaces\IText.cs" />
+    <Compile Include="Helpers\OutputTextToFileHelper.cs" />
+    <Compile Include="AdditionalClasses\Parser.cs" />
+    <Compile Include="AdditionalClasses\Reader.cs" />
+    <Compile Include="Models\Sentence.cs" />
+    <Compile Include="Models\SentenceItem.cs" />
+    <Compile Include="AdditionalClasses\SentenceItemType.cs" />
+    <Compile Include="Models\Text.cs" />
+    <Compile Include="Helpers\OutputTextToConsoleHelper.cs" />
+    <Compile Include="Models\Word.cs" />
+    <Compile Include="Interfaces\ISentenceItem.cs" />
     <Compile Include="Interfaces\IWord.cs" />
     <Compile Include="Interfaces\ISentence.cs" />
     <Compile Include="Program.cs" />

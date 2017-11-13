@@ -8,12 +8,18 @@ namespace Task_2.Interfaces
 {
     public interface ISentence
     {
-        List<IWord> Words { get; }
+        bool IsInterrogative(ISentenceItem element);
 
-        int WordsCount { get; }
+        void AddElementToEnd(ISentenceItem element);
 
-        bool IsInterrogative { get; }
+        int GetWordsCount();
 
-        char Separator { get; }
+        int GetElementsCount();
+
+        ISentenceItem GetElementByIndex(int index);
+
+        void DeleteWordsOfGivenLengthWhichStartsWithConsonantLetter(int wordLenght);
+
+        void ReplaceWordBySubstring(int wordLenght, string newValue);
     }
 }
